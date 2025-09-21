@@ -90,7 +90,7 @@ function Contact() {
         </p>
         <div className="mt-6">
           <a
-            href="/contact"
+            href="https://t.me/My_name_is_Asqarjon"
             className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white hover:bg-indigo-500 transition-colors active:scale-95"
           >
             < FaTelegram className="h-4 w-4" />
