@@ -20,7 +20,7 @@ export default function About() {
   };
 
   return (
-    <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-24 pt-24">
+    <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-10 pt-10">
       <h1 className={`text-center text-4xl sm:text-5xl font-extrabold ${dark ? "text-white" : "text-black"}`}>
         {about.title}
       </h1>

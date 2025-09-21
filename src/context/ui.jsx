@@ -41,29 +41,28 @@ const translations = {
     projects: {
       title: "Loyihalar",
       cards: [
-        { title: "Yog'och do'kon crm", href: "https://yog-och-do-kon.vercel.app" },
+        { title: "Yog‘och do‘kon CRM", href: "https://yog-och-do-kon.vercel.app" },
         { title: "TezkorMarket sayt", href: "https://www.tezkormarket.uz" },
-        { title: "online talim tizim", href: "#" },
-        { title: "Sportkids platforma boshqaruv tizim", href: "https://sportkids.vercel.app/login" },
-        { title: "Bir-bir onlayn do'kon", href: "" },
-        { title: "Kiyim do'kon crm", href: "#" },
-        { title: "Telegram bot hisobchi bot", href: "https://t.me/AsqarjonHisobchi_bot" },
-        { title: "va boshqalar bor man uchun mashhurlar shular" },
+        { title: "Onlayn ta’lim tizimi", href: "#" },
+        { title: "Sportkids platformasi boshqaruv tizimi", href: "https://sportkids.vercel.app/login" },
+        { title: "Bir-bir onlayn do‘kon", href: "" },
+        { title: "Kiyim do‘kon CRM", href: "#" },
+        { title: "Telegram hisobchi bot", href: "https://t.me/AsqarjonHisobchi_bot" },
+        { title: "Va boshqa mashhur loyihalar" },
       ],
       view: "Loyihani ko‘rish",
       linksTitle: "Tashqi havolalar",
       links: [
-
         { title: "Telegram", href: "https://t.me/My_name_is_Asqarjon", icon: "telegram" },
         { title: "Shaxsiy sayt", href: "https://asqarjon.uz", icon: "globe" },
-        { title: "GitHub",       href: "https://github.com/Asqarjon10dev", icon: "github" },
-        { title: "Instagram",    href: "https://www.instagram.com/a__7o7__/", icon: "instagram" },
-
+        { title: "GitHub", href: "https://github.com/Asqarjon10dev", icon: "github" },
+        { title: "Instagram", href: "https://www.instagram.com/a__7o7__/", icon: "instagram" },
       ],
       contactTitle: "Aloqaga chiqing",
       contactDesc: "Doimo yangi imkoniyatlar va qiziqarli loyihalarga ochiqman. Savolingiz bo‘lsa yoki salom demoqchi bo‘lsangiz, bemalol yozing!",
       contactCta: "Menga yozing",
     },
+
     footer: { backToTop: "Tepaga qaytish ↑", rights: "Barcha huquqlar himoyalangan." },
   },
 
@@ -72,7 +71,7 @@ const translations = {
     nav: { about: "Обо мне", skills: "Навыки", projects: "Проекты", contact: "Контакты" },
 
     hero: {
-      title: "Аскаржон —",
+      title: "Привет, я Аскаржон.",
       role: "Fullstack Разработчик",
       desc: "Создаю современные веб-приложения с увлечением и точностью",
       cta: "Связаться со мной",
@@ -80,7 +79,7 @@ const translations = {
 
     about: {
       title: "Обо мне",
-      desc: "Я Аскаржон — фуллстек-разработчик. С 2024 года занимаюсь программированием и созданием проектов.",
+      desc: "Я Аскаржон — фулстек-разработчик. С 2024 года занимаюсь программированием и созданием проектов.",
       stats: [
         { value: "2024+", label: "Лет в кодинге" },
         { value: "10+",   label: "Проектов" },
@@ -102,24 +101,28 @@ const translations = {
     projects: {
       title: "Проекты",
       cards: [
-        { title: "Платформа E-Commerce", href: "#" },
-        { title: "Приложение для задач", href: "#" },
-        { title: "Аналитическая панель", href: "#" },
-        { title: "Приложение Погода", href: "#" },
+        { title: "CRM для магазина древесины", href: "https://yog-och-do-kon.vercel.app" },
+        { title: "Сайт TezkorMarket", href: "https://www.tezkormarket.uz" },
+        { title: "Система онлайн-образования", href: "#" },
+        { title: "Платформа Sportkids (панель управления)", href: "https://sportkids.vercel.app/login" },
+        { title: "Интернет-магазин Bir-bir", href: "" },
+        { title: "CRM для магазина одежды", href: "#" },
+        { title: "Telegram бот (финансовый помощник)", href: "https://t.me/AsqarjonHisobchi_bot" },
+        { title: "И другие популярные проекты" },
       ],
-      view: "Посмотреть",
+      view: "Посмотреть проект",
       linksTitle: "Внешние ссылки",
       links: [
         { title: "Telegram", href: "https://t.me/My_name_is_Asqarjon", icon: "telegram" },
-
-        { title: "Личный сайт", href: "https://example.com", icon: "globe" },
-        { title: "GitHub",      href: "https://github.com/", icon: "github" },
-        { title: "Instagram",   href: "https://instagram.com/", icon: "instagram" },
+        { title: "Личный сайт", href: "https://asqarjon.uz", icon: "globe" },
+        { title: "GitHub", href: "https://github.com/Asqarjon10dev", icon: "github" },
+        { title: "Instagram", href: "https://www.instagram.com/a__7o7__/", icon: "instagram" },
       ],
       contactTitle: "Связаться",
-      contactDesc: "Открыт для новых возможностей и интересных проектов. Есть вопрос или хотите просто поздороваться? Пишите!",
+      contactDesc: "Открыт для новых возможностей и интересных проектов. Есть вопрос или хотите просто поздороваться? Напишите!",
       contactCta: "Написать мне",
     },
+
     footer: { backToTop: "Наверх ↑", rights: "Все права защищены." },
   },
 
@@ -128,7 +131,7 @@ const translations = {
     nav: { about: "About", skills: "Skills", projects: "Projects", contact: "Contact" },
 
     hero: {
-      title: "Asqarjon —",
+      title: "Hello, I'm Asqarjon.",
       role: "Fullstack Developer",
       desc: "Building modern web applications with passion and precision",
       cta: "Contact Me",
@@ -158,27 +161,32 @@ const translations = {
     projects: {
       title: "Projects",
       cards: [
-        { title: "E-Commerce Platform", href: "#" },
-        { title: "Task Management App", href: "#" },
-        { title: "Analytics Dashboard", href: "#" },
-        { title: "Weather App", href: "#" },
+        { title: "Wood Shop CRM", href: "https://yog-och-do-kon.vercel.app" },
+        { title: "TezkorMarket Website", href: "https://www.tezkormarket.uz" },
+        { title: "Online Education System", href: "#" },
+        { title: "Sportkids Platform Admin Panel", href: "https://sportkids.vercel.app/login" },
+        { title: "Bir-bir Online Store", href: "" },
+        { title: "Clothing Store CRM", href: "#" },
+        { title: "Telegram Accounting Bot", href: "https://t.me/AsqarjonHisobchi_bot" },
+        { title: "And other popular projects" },
       ],
       view: "View Project",
       linksTitle: "External Links",
       links: [
         { title: "Telegram", href: "https://t.me/My_name_is_Asqarjon", icon: "telegram" },
-
-        { title: "Personal Website", href: "https://example.com", icon: "globe" },
-        { title: "GitHub",           href: "https://github.com/", icon: "github" },
-        { title: "Instagram",        href: "https://instagram.com/", icon: "instagram" },
+        { title: "Personal Website", href: "https://asqarjon.uz", icon: "globe" },
+        { title: "GitHub", href: "https://github.com/Asqarjon10dev", icon: "github" },
+        { title: "Instagram", href: "https://www.instagram.com/a__7o7__/", icon: "instagram" },
       ],
       contactTitle: "Get In Touch",
-      contactDesc: "I’m always interested in new opportunities and interesting projects. Have a question or just want to say hi? Reach out!",
+      contactDesc: "I’m always interested in new opportunities and exciting projects. Have a question or just want to say hi? Reach out!",
       contactCta: "Contact Me",
     },
+
     footer: { backToTop: "Back to top ↑", rights: "All rights reserved." },
   },
 };
+
 
 
 

@@ -14,7 +14,7 @@ export default function Skills() {
   };
 
   return (
-    <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-24 pb-24">
+    <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 pb-10">
       <div className="text-center">
         <h1 className={`text-4xl sm:text-5xl font-extrabold ${dark ? "text-white" : "text-black"}`}>
           {s.title}
