@@ -22,6 +22,7 @@ function Header() {
             className="text-xl font-semibold tracking-tight text-indigo-400 hover:text-indigo-300"
           >
             {t?.brand ?? "Brand"}
+
           </Link>
 
           {/* Center nav */}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://asqarjon.uz/sitemap.xml
