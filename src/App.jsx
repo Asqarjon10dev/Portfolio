@@ -1,5 +1,5 @@
-// === File: src/App.jsx ===
-import React, { useEffect } from "react";
+// src/App.jsx
+import React, { useEffect, useState } from "react";
 import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import { UIProvider, useUI } from "./context/ui";
 import Header from "./components/Header";
@@ -21,13 +21,26 @@ function ScrollToHash() {
 function Shell() {
   const { dark } = useUI();
 
+  // ⬇️ Drawer holatini bu yerga ko‘tardik
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  // Body scroll lock
+  useEffect(() => {
+    if (menuOpen) document.body.classList.add("overflow-hidden");
+    else document.body.classList.remove("overflow-hidden");
+    return () => document.body.classList.remove("overflow-hidden");
+  }, [menuOpen]);
+
   return (
     <div className={`${dark ? "bg-[#0e0f13] text-white" : "bg-white text-black"} min-h-screen transition-colors scroll-smooth`}>
-      <Header />
+      {/* Header ga holatni prop qilib beramiz */}
+      <Header open={menuOpen} setOpen={setMenuOpen} />
+
+      {/* Hash scroll */}
       <ScrollToHash />
 
       {/* Decorative background */}
-       <div aria-hidden className="pointer-events-none fixed inset-0 -z-20">
+      <div aria-hidden className="pointer-events-none fixed inset-0 -z-20">
         {dark ? (
           <>
             <div className="absolute inset-0 bg-[radial-gradient(1200px_600px_at_70%_20%,rgba(99,102,241,0.12),transparent)]" />
@@ -38,12 +51,22 @@ function Shell() {
         )}
       </div>
 
+      {/* ASOSIY KONTENT */}
       <Routes>
         <Route path="/" element={<Asosiy />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
 
       <Footer />
+
+      {/* ⬇️ OVERLAY: butun saytni blur + qoraytiradi (Header’dan tashqarida) */}
+      {menuOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-black/60 backdrop-blur-md md:hidden"
+          onClick={() => setMenuOpen(false)} // tashqariga bosilsa yopiladi
+          aria-hidden
+        />
+      )}
     </div>
   );
 }
